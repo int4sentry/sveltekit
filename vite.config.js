@@ -16,6 +16,7 @@ export default defineConfig({
       // and need `project:releases` and `org:read` scopes
       authToken:
         "21a0be516db1412ea708d6a852906cd898899c4aaea348f689b824b17871fec8",
+      telemetry: false,
     }),
   ],
 });
