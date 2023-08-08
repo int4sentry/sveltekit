@@ -19,7 +19,7 @@ Feel free to delete this file and the entire sentry route.
     try {
       const res = await fetch('/test-sentry');
       if (!res.ok) {
-        throw new Error('Sentry Example Frontend Error part 2');
+        throw new Error('Sentry Example Frontend Error new');
       }
     } finally {
       transaction.finish();
